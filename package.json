@@ -1,0 +1,31 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "Simple todo app built with Firebase and Vanilla JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawisto/todos.git"
+  },
+  "keywords": [
+    "todo-app",
+    "firebase",
+    "vanilla-js",
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawisto/todos/issues"
+  },
+  "homepage": "https://github.com/pawisto/todos#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "firebase": "^9.16.0"
+  }
+}
