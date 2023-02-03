@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  background-color: hsl(220, 5%, 15%);
+  background-color: hsl(212, 1%, 14%);
 }
 
 header {
   height: 4.5rem;
-  border-bottom: 2px solid hsl(16, 93%, 39%);
+  border-bottom: 2px solid dodgerblue;
   display: flex;
   background-color: black;
   justify-content: space-between;
@@ -19,15 +19,32 @@ nav {
 h1 {
   margin-block: 0.2rem;
   margin-inline: 20px;
-  color: hsl(27, 100%, 50%);
+  color: dodgerblue;
 }
 
 a {
   margin-inline: 7px;
-  color: hsl(27, 100%, 50%);
+  padding: 5px;
+  border-radius: 5px;
+  color: dodgerblue;
   text-decoration: none;
 }
 
 a:hover {
-  color: orangered;
+  color: dodgerblue;
+  background-color: hsl(210, 100%, 16%);
+}
+
+.content h2 {
+  text-align: center;
+  color: dodgerblue;
+}
+
+p {
+  text-align: center;
+  color: hsl(207, 100%, 86%);
+}
+
+form {
+  text-align: center;
 }
