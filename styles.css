@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: hsl(220, 5%, 15%);
+}
+
+header {
+  height: 4.5rem;
+  border-bottom: 2px solid hsl(16, 93%, 39%);
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+}
+
+nav {
+  margin-block: 1.2rem;
+  margin-inline: 20px;
+}
+
+h1 {
+  margin-block: 0.2rem;
+  margin-inline: 20px;
+  color: hsl(27, 100%, 50%);
+}
+
+a {
+  margin-inline: 7px;
+  color: hsl(27, 100%, 50%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+}
